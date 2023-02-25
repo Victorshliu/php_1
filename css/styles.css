@@ -1,4 +1,43 @@
+/* Styles Reset everything will display as expected */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* Root Variables */
+:root {
+    --blue: #6495ed;
+}
+
+/* Global */
+body {
+    background-color: var(--blue);
+    width: 1080px;
+    margin: 0 auto;
+}
+
 img {
-    width: 400px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Card Templates */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+.card__header {
+    font-size: 3rem;
+    
 }

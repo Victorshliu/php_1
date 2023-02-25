@@ -20,8 +20,7 @@ class PlayerClass {
         $this->mainStat = $player['mainStat'];
     }
 
-    public function minMax() {
-        echo "If playing the " . $this->class . " and you do not have a high " . $this->mainStat . "YOU ARENT OPTIMAL";
-    }
-    
+   public function minMax() {
+    return "If playing the " . $this->class . " and you do not have a high " . $this->mainStat . ", YOU AREN'T OPTIMAL";
+}
 };
