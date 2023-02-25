@@ -33,7 +33,14 @@ img {
   justify-content: center;
 }
 
-
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
 /* Header */
 header {
   display: flex;
@@ -66,7 +73,6 @@ h1 {
   height: 25rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   text-align: center;
   background-color: var(--brown);
