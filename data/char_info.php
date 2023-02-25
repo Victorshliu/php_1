@@ -2,20 +2,20 @@
 // partial file to hold object data in one easy to manage file
 
 // Template to copy and paste from
-// $temp = new PlayerClass();
-// $temp -> class = "";
-// $temp -> image= "";
-// $temp -> role = "";
-// $temp -> mainStat = "";
+// $= new PlayerClass([
+//     "class" => "",
+//     "image" => ".png",
+//     "role" => "Damage Dealer + Control",
+//     "mainStat" => "Dexterity",
+// ]);
 
-// Barbarian
+// property data
 $barbarian = new PlayerClass([
     "class" => "Barbarian",
     "image" => "barbarian.png",
     "role" => "Damage Dealer + Tank",
     "mainStat" => "Strength"
 ]);
-
 
 $bard= new PlayerClass([
     "class" => "Bard",
@@ -45,9 +45,14 @@ $monk= new PlayerClass([
     "mainStat" => "Dexterity",
 ]); 
 
-
+$wizard= new PlayerClass([
+    "class" => "Wizard",
+    "image" => "wizard.png",
+    "role" => "Damage Dealer + Control",
+    "mainStat" => "Dexterity",
+]);
 
 // Array used to store and create access point to stored information
 $player = [
-    $barbarian, $bard, $rogue, $cleric, $monk
+    $barbarian, $bard, $rogue, $cleric, $monk, $wizard
 ];

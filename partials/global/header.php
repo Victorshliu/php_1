@@ -1,3 +1,5 @@
 <header>
-    <h1>🗡️ Starter Classes 🛡️</h1>
+  <div>
+  <h1>🗡️ Starter Classes 🛡️</h1>
+  </div>
 </header>
